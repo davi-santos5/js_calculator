@@ -1,0 +1,57 @@
+#inputs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-templatre-rows: repeat(5, 1fr);
+  grid-template-areas: 
+    'clear clear clear operator' 
+    'number number number operator' 
+    'number number number operator' 
+    'number number number operator'
+    'number number number operator';
+  grid-gap: 10px;
+}
+
+#inputs #clear {
+  grid-area: clear;
+  width: 250px;
+  color: #b35625;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 35px;
+  
+  background-color: #fff;
+}
+
+#numbers-area {
+  grid-area: number;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.number {
+  background-color: #444857;
+  color: #fff;
+  margin-left: 12px;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+#numbers-area #zero {
+  text-align: left;
+  padding-left: 35px;
+  width: 150px;
+}
+
+#operators {
+  grid-area: operator;
+  display: flex;
+  flex-direction: column;
+}
+
+.operator {
+  margin-bottom: 10px;
+  font-size: 25px;
+  background-color: #b35625;
+  color: #fff;
+}
