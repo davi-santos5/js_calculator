@@ -4,7 +4,11 @@ Calculator made with ReactJS
 
 Project devolped based on this [freeCodeCamp Challenge](https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-javascript-calculator)
 
-This calculator operates using *formula logic* and only the basic operators (+,-,*,/)   
+This calculator operates using *formula logic* and only the basic operators (+,-,*,/)
+
+## View
+
+<img src="https://github.com/davi-santos5/js_calculator/blob/master/print.png" alt="visualization" width=300 />
 
 <br>
 <p>
